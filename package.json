@@ -1,0 +1,29 @@
+{
+  "name": "airtable-record-deleter",
+  "version": "1.0.0",
+  "description": "Node.js/TypeScript automation service for deleting records from Airtable via REST API",
+  "main": "dist/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "nodemon --exec tsx src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["airtable", "automation", "api", "delete", "records"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.4.5"
+  }
+}
